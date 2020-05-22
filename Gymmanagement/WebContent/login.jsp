@@ -2,51 +2,41 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<title>Login</title>
-  	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<title>Login</title>
+  		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	</head>
-	<body background="Pictures/gym.jpeg">
+	<body background="Pictures/gym.jpg">
 	<nav class="navbar navbar-expand-lg navbar-light bg-dark">
-  <a class="navbar-brand" style="color: white" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+		<a class="navbar-brand" style="color: white" href="#">SVGYM</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" style="color: white" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" style="color: white" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" style="color: white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" style="color: white" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active">
+				        	<a class="nav-link active" style="color: white" href="#">Home</a>
+				      </li>
+				      <li class="nav-item">
+				        	<a class="nav-link" style="color: white" href="#">Services</a>
+				      </li>
+				     <li class="nav-item">
+				        	<a class="nav-link" style="color: white" href="#">About</a>
+				      </li>
+			    </ul>
+			    <div class="inline my-2 my-lg-0">
+			    	  <i class="fa fa-database nav-icon" aria-hidden="true"></i>
+			    	  <a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+				      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">login</button>
+				      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">login</button>
+			    </div>
+		  </div>
+	</nav>
 	
-		<center>
-			<h1 style="color: blue">Login</h1>
-		</center>
+		<br><br>
+		<h1 class="text-center" style="color: blue">Login</h1>
 		
 		<form>
 			<div class="row justify-content-center">
@@ -63,7 +53,7 @@
 			</div>
 			<br>
 			<div class="text-center">
-				<button type="button" class="btn btn-outline-primary">Submit</button>
+				<button type="button" class="btn btn-primary">Submit</button>
 			</div>
 		</form>
 		
