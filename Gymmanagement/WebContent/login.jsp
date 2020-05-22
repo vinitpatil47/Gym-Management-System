@@ -72,36 +72,37 @@
 		-->
   
 
-                  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #22313F">
-                        <a class="navbar-brand" href="#">SVGYM</a>    
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                  
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #22313F">
+			<a class="navbar-brand" href="#">SVGYM</a>    
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
                           <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                              <a class="nav-link p-2" href="">Home</a>
-                            </li>
-                            <li class="nav-item active">
-                              <a class="nav-link p-2" href="">Services</a>
-                            </li>
-                            <li class="nav-item active">
-                              <a class="nav-link p-2" href="">About</a>
-                            </li>
+	                            <li class="nav-item active">
+	                              <a class="nav-link p-2" href="">Home</a>
+	                            </li>
+	                            <li class="nav-item active">
+	                              <a class="nav-link p-2" href="">Services</a>
+	                            </li>
+	                            <li class="nav-item active">
+	                              <a class="nav-link p-2" href="">About</a>
+	                            </li>
                           </ul>
-                        </div>
-                        <div class="inline my-2 my-lg-0">
-			    	  
+                </div>
+                
+                <div class="inline my-2 my-lg-0">
 			    	  <span class="p-4" href="#" style="color:white"><i class="fa fa-user-plus nav-icon"></i> Sign Up</span>
 			    	  <span class="p-4" href="#" style="color:white"><i class="fa fa-sign-in nav-icon"></i> Login</span>
 			    	  <span class="p-4" href="#" style="color:white"><i class="fa fa-user nav-icon"></i> Profile</span>
 			    	  <span class="p-4" href="#" style="color:white"><i class="fa fa-sign-out nav-icon"></i> Logout</span>
 			    </div>
-                      </nav>
+		</nav>
 
-				<br><br><br>
-	<div class="container-fluid py-3">
+		<br><br><br>
+		
+		<div class="container-fluid py-3">
 	
 		<form method="post">
 			<div class="container border border-info rounded px-3 py-3">
@@ -109,17 +110,17 @@
 			<br>
 			
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-			    <label for="loginid" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Login Id</label>
-			    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-			      <input type="text" name="loginid" class="form-control form-control-lg" id="loginid" placeholder="Login Id">
-			    </div>
+				    <label for="loginid" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Login Id</label>
+				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
+				      <input type="text" name="loginid" class="form-control form-control-lg" id="loginid" placeholder="Login Id">
+				    </div>
 			  </div>
 			  <br>
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-			    <label for="password" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Password</label>
-			    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-			      <input type="password" name="password" class="form-control form-control-lg" id="password" placeholder="Password">
-			    </div>
+				    <label for="password" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Password</label>
+				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
+				      <input type="password" name="password" class="form-control form-control-lg" id="password" placeholder="Password">
+				    </div>
 			  </div>
 			  <br>
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
