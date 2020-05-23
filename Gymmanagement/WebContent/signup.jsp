@@ -58,7 +58,7 @@
 	
 		<form method="post" action="/action_page.php">
 			<div class="container border border-info rounded px-3 py-3">
-			<h2 align="center" style="color:navy">Login</h2>
+			<h2 align="center" style="color:navy">Sign Up</h2>
 			<br>
 			  
 			   <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
@@ -79,7 +79,7 @@
 				    <label for="address"  style="color: black" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Address</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
 				    	<div class="form-group">
-     					<textarea class="form-control" rows="1" id="address" placeholder="Address"></textarea>
+     					<textarea class="form-control" rows="2" id="address" placeholder="Address"></textarea>
     		        	</div>
 				    </div>
 			  </div>
@@ -109,8 +109,9 @@
 				    <label for="gender"  style="color: black" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Gender</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
 				     <select  name="gender" class="form-control form-control-lg" id="gender">
-   					 <option value="Female">Female</option>
-    				 <option value="Male">Male</option>
+				     	 <option value="Select gender">Select gender</option>
+	   					 <option value="Female">Female</option>
+	    				 <option value="Male">Male</option>
 					 </select>
 				    </div>
 			  </div>
@@ -119,8 +120,9 @@
 				    <label for="role"  style="color: black" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Role</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
 				     <select  name="role" class="form-control form-control-lg" id="role">
-   					 <option value="Owner">Owner</option>
-    				 <option value="User">User</option>
+				     	 <option value="Select role">Select role</option>
+	   					 <option value="Owner">Owner</option>
+	    				 <option value="User">User</option>
 					 </select>
 				    </div>
 			  </div>
