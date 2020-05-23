@@ -6,11 +6,13 @@
   		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
+		
 		<style> 
 	        #SP 
 	        { 
 	            text-decoration: none; 
 	        } 
+	        
 	        
 	        body {
 			  background-repeat: no-repeat;
@@ -54,74 +56,90 @@
 		
 		<div class="container-fluid py-3">
 	
-		<form method="post">
+		<form method="post" action="/action_page.php">
 			<div class="container border border-info rounded px-3 py-3">
 			<h2 align="center" style="color:navy">Login</h2>
 			<br>
 			  
 			   <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-				    <label for="name" style="color: yellow" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Name</label>
+				    <label for="name" style="color:black" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Name</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="name" name="name" class="form-control form-control-lg" id="name" placeholder="Name">
+				      <input type="text" name="name" class="form-control form-control-lg" id="name" placeholder="Name">
 				    </div>
 			  </div>
 			  <br>
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-				    <label for="email"  style="color: yellow" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Email</label>
+				    <label for="email"  style="color: black" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Email</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
 				      <input type="email" name="email" class="form-control form-control-lg" id="email" placeholder="Email">
 				    </div>
 			  </div>
 			  <br>
 			   <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-				    <label for="address"  style="color: yellow" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Address</label>
+				    <label for="address"  style="color: black" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Address</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="address" name="address" class="form-control form-control-lg" id="address" placeholder="Address">
+				    	<div class="form-group">
+     					<textarea class="form-control" rows="1" id="address" placeholder="Address"></textarea>
+    		        	</div>
 				    </div>
 			  </div>
 			  <br>
 			   <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-				    <label for="id"  style="color: yellow" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">ID</label>
+				    <label for="id"  style="color: black" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">ID</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="id" name="id" class="form-control form-control-lg" id="id" placeholder="ID">
+				      <input type="text" name="id" class="form-control form-control-lg" id="id" placeholder="ID">
 				    </div>
 			  </div>
 			  <br>
 			   <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-				    <label for="dob"  style="color: yellow" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">DOB</label>
+				    <label for="dob"  style="color: black" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">DOB</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="dob" name="dob" class="form-control form-control-lg" id="dob" placeholder="DOB">
+				      <input type="date" name="dob" class="form-control form-control-lg" id="dob">
 				    </div>
 			  </div>
 			  <br>
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-				    <label for="mobile"  style="color: yellow" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Mobile</label>
+				    <label for="mobile"  style="color: black" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Mobile</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="mobile" name="mobile" class="form-control form-control-lg" id="mobile" placeholder="Mobile">
+				      <input type="number" name="mobile" class="form-control form-control-lg" id="mobile" placeholder="Mobile">
 				    </div>
 			  </div>
 			  <br>
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-				    <label for="gender"  style="color: yellow" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Gender</label>
+				    <label for="gender"  style="color: black" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Gender</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="gender" name="gender" class="form-control form-control-lg" id="gender" placeholder="Gender">
+				     <select  name="gender" class="form-control form-control-lg" id="gender">
+   					 <option value="Female">Female</option>
+    				 <option value="Male">Male</option>
+					 </select>
 				    </div>
 			  </div>
 			  <br>
 			   <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-				    <label for="role"  style="color: yellow" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Role</label>
+				    <label for="role"  style="color: black" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Role</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="role" name="role" class="form-control form-control-lg" id="role" placeholder="Role">
+				     <select  name="role" class="form-control form-control-lg" id="role">
+   					 <option value="Owner">Owner</option>
+    				 <option value="User">User</option>
+					 </select>
 				    </div>
 			  </div>
 			  <br>
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-				    <label for="password"  style="color: yellow" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Password</label>
+				    <label for="password"  style="color: black" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Password</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
 				      <input type="password" name="password" class="form-control form-control-lg" id="password" placeholder="Password">
 				    </div>
 			  </div>
 			  <br>
+			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
+				    <label for="password"  style="color: black" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Confirm password</label>
+				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
+				      <input type="password" name="password" class="form-control form-control-lg" id="password" placeholder="Password">
+				    </div>
+			  </div>
+			  <br>
+			  
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
 			      <button type="submit" class="btn btn-primary">Submit</button>
 			  </div>
