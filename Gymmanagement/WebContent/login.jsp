@@ -1,24 +1,28 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
- <style>
-body {
-  background-image: url('/Pictures/gym.jpg');
-  background-repeat: no-repeat;
-}
-</style> 
 <html>
 	<head>
 		<title>Login</title>
   		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	</head>
-	<style> 
-        #SP 
-        { 
-            text-decoration: none; 
-        } 
+	
+		<style> 
+	        #SP 
+	        { 
+	        	  text-decoration: none; 
+	        } 
+	        
+	        body 
+	        {
+				  background-repeat: no-repeat;
+				  background-attachment: fixed;
+				  background-size: cover;
+			}
     </style> 
-	<body>
+		
+	</head>
+	
+	<body background="Pictures/gym.jpg">
 
 		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #22313F">
 			<a class="navbar-brand" href="#">SVGYM</a>    
@@ -42,9 +46,9 @@ body {
                 
                 <div class="inline my-2 my-lg-0">
 			    	  <a class="p-4" href="signup.jsp" id= "SP" style="color:white"><i class="fa fa-user-plus nav-icon"></i> Sign Up</a>
-			    	  <span class="p-4" href="#" style="color:white"><i class="fa fa-sign-in nav-icon"></i> Login</span>
-			    	  <span class="p-4" href="#" style="color:white"><i class="fa fa-user nav-icon"></i> Profile</span>
-			    	  <span class="p-4" href="#" style="color:white"><i class="fa fa-sign-out nav-icon"></i> Logout</span>
+			    	  <a class="p-4" href="login.jsp" id= "SP" style="color:white"><i class="fa fa-sign-in nav-icon"></i> Login</a>
+			    	  <a class="p-4" href="#" id= "SP" style="color:white"><i class="fa fa-user nav-icon"></i> Profile</a>
+			    	  <a class="p-4" href="#" id= "SP" style="color:white"><i class="fa fa-sign-out nav-icon"></i> Logout</a>
 			    </div>
 		</nav>
 
