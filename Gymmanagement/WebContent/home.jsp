@@ -52,40 +52,14 @@
 			    </div>
 		</nav>
 
-<div class="card" style="width: 82rem;">
-  <img src="Pictures/gym.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-  </div>
-</div>
-		<br><br><br>
-		
-		<div class="container-fluid py-3">
-	
-		<form method="post">
-			<div class="container border border-info rounded px-3 py-3">
-			<h2 align="center" style="color:blue">Login</h2>
-			<br>
-			
-			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-				    <label for="loginid" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Login Id</label>
-				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="text" name="loginid" class="form-control form-control-lg" id="loginid" placeholder="Login Id">
-				    </div>
-			  </div>
-			  <br>
-			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-				    <label for="password" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Password</label>
-				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="password" name="password" class="form-control form-control-lg" id="password" placeholder="Password">
-				    </div>
-			  </div>
-			  <br>
-			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-			      <button type="submit" class="btn btn-primary">Submit</button>
-			  </div>
-			 </div>
- 		 </form>
+	<div class="card" style="width: 82rem;">
+	  <img src="Pictures/gym.jpg" class="card-img-top" alt="...">
+	  <div class="card-body">
+	  	GYM NAME<br>
+	  	ADDRESS<br>
+	  	MOBILE NO<br>
+	  </div>
 	</div>
-		
+
 	</body>
 </html>
