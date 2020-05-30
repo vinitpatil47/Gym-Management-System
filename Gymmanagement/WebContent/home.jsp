@@ -18,12 +18,16 @@
 				  background-attachment: fixed;
 				  background-size: cover;
 			}
-    </style> 
+			
+			.card-header a 
+			{
+  				  color: black;
+			}
+    	</style> 
 		
 	</head>
 	
 	<body>
-
 		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #22313F">
 			<a class="navbar-brand" href="#">SVGYM</a>    
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,15 +55,58 @@
 			    	  <a class="p-4" href="#" id= "SP" style="color:white"><i class="fa fa-sign-out nav-icon"></i> Logout</a>
 			    </div>
 		</nav>
-
-	<div class="card" style="width: 82rem;">
-	  <img src="Pictures/gym.jpg" class="card-img-top" alt="...">
-	  <div class="card-body">
-	  	GYM NAME<br>
-	  	ADDRESS<br>
-	  	MOBILE NO<br>
-	  </div>
-	</div>
-
-	</body>
-</html>
+		
+		<img src="Pictures/gym.jpg" alt="Girl in a jacket" style="width:1400px;height:600px;">
+		
+		
+		<div class="container">
+  			<div class="row">
+   				<div class="col-sm-4">
+   				<div class="card-header text-white" style="background-color:white;">
+      				<a href="login.jsp" class="card-link">
+	  				<div class="card" style="width: 14rem; height:16rem;">
+	  					<img src="Pictures/gym.jpg" class="card-img-top" alt="...">
+	  					<div class="card-body">
+	  							GYM NAME<br>
+	  							ADDRESS<br>
+	  							MOBILE NO<br>
+	  					</div>          				
+	  				</div>
+	  				</a>			
+       			</div>
+       			</div>
+    			
+    			<div class="col-sm-4">
+    			<div class="card-header text-white" style="background-color:white;">
+      				<a href="login.jsp" class="card-link">
+	  				<div class="card" style="width: 14rem; height:16rem;">
+	  					<img src="Pictures/gym.jpg" class="card-img-top" alt="...">
+	  					<div class="card-body">
+	  							GYM NAME<br>
+	  							ADDRESS<br>
+	  							MOBILE NO<br>
+	  					</div>          				
+	  				</div>
+	  				</a>    			
+	  			</div>
+	  			</div>
+    			
+    			<div class="col-sm-4">
+    			<div class="card-header text-white" style="background-color:white;">
+	  				<a href="login.jsp" class="card-link">
+	  				<div class="card" style="width: 14rem; height:16rem;">
+	  					<img src="Pictures/gym.jpg" class="card-img-top" alt="...">
+	  					<div class="card-body">
+	  							GYM NAME<br>
+	  							ADDRESS<br>
+	  							MOBILE NO<br>
+	  					</div>          				
+	  				</div>
+	  				</a>
+	  				</div>
+  		   		</div>
+		</div>
+	   </div>
+		
+		</body>
+</html> 
