@@ -10,14 +10,7 @@
 	        #SP 
 	        { 
 	        	  text-decoration: none; 
-	        } 
-	        
-	        body 
-	        {
-				  background-repeat: no-repeat;
-				  background-attachment: fixed;
-				  background-size: cover;
-			}
+	        }
 			
 			.card-header a 
 			{
