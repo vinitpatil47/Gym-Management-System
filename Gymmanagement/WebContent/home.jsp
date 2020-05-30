@@ -56,57 +56,40 @@
 			    </div>
 		</nav>
 		
-		<img src="Pictures/gym.jpg" alt="Girl in a jacket" style="width:1400px;height:600px;">
+		<img src="Pictures/gym1.jpg" alt="Girl in a jacket" style="width:100%;height:600px">
 		
 		
 		<div class="container">
-  			<div class="row">
-   				<div class="col-sm-4">
-   				<div class="card-header text-white" style="background-color:white;">
-      				<a href="login.jsp" class="card-link">
-	  				<div class="card" style="width: 14rem; height:16rem;">
-	  					<img src="Pictures/gym.jpg" class="card-img-top" alt="...">
-	  					<div class="card-body">
-	  							GYM NAME<br>
-	  							ADDRESS<br>
-	  							MOBILE NO<br>
-	  					</div>          				
-	  				</div>
-	  				</a>			
-       			</div>
-       			</div>
-    			
-    			<div class="col-sm-4">
-    			<div class="card-header text-white" style="background-color:white;">
-      				<a href="login.jsp" class="card-link">
-	  				<div class="card" style="width: 14rem; height:16rem;">
-	  					<img src="Pictures/gym.jpg" class="card-img-top" alt="...">
-	  					<div class="card-body">
-	  							GYM NAME<br>
-	  							ADDRESS<br>
-	  							MOBILE NO<br>
-	  					</div>          				
-	  				</div>
-	  				</a>    			
-	  			</div>
-	  			</div>
-    			
-    			<div class="col-sm-4">
-    			<div class="card-header text-white" style="background-color:white;">
-	  				<a href="login.jsp" class="card-link">
-	  				<div class="card" style="width: 14rem; height:16rem;">
-	  					<img src="Pictures/gym.jpg" class="card-img-top" alt="...">
-	  					<div class="card-body">
-	  							GYM NAME<br>
-	  							ADDRESS<br>
-	  							MOBILE NO<br>
-	  					</div>          				
-	  				</div>
-	  				</a>
-	  				</div>
-  		   		</div>
-		</div>
+			<br><br>
+			<center><h3>GYM</h3></center>
+			<hr>
+  			<div class="row mt-5 mb-5">
+  			
+  				<% 
+  				for(int i = 0; i < 50; i++)
+  				{
+  				%>
+	   				<div class="col-sm-4">
+		   				<div class="card-header text-white" style="background-color:white;">
+		      				<a href="login.jsp" class="card-link">
+			  				<div class="card">
+			  					<img src="Pictures/gym3.jpg" class="card-img-top" alt="...">
+			  					<div class="card-body">
+			  							GYM NAME<br>
+			  							ADDRESS<br>
+			  							MOBILE NO<br>
+			  					</div>          				
+			  				</div>
+			  				</a>			
+		       			</div>
+	       			</div>
+       		
+       			<% 
+       			}
+       			%>
+  		   		
+			</div>
 	   </div>
 		
-		</body>
+	</body>
 </html> 
