@@ -5,20 +5,6 @@
 		<title>Services</title>
   		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-		<style> 
-	        #SP 
-	        { 
-	        	  text-decoration: none; 
-	        } 
-	        
-	        body 
-	        {
-				  background-repeat: no-repeat;
-				  background-attachment: fixed;
-				  background-size: cover;
-			}
-    </style> 
 		
 	</head>
 	
@@ -57,46 +43,122 @@
 		<div class="container-fluid py-3">
 			<div class="container border border-info rounded px-3 py-3">
 			<h2 align="center" style="color:churchill">Gym</h2>
-			  <br>
-				    <label for="loginid" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Gym Name :-</label>
-			  <hr>
-			  <br>
-			  		<label for="password" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Description :-</label>
-			  <hr>
-			  <br>
-			  		<label for="text" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Services :-</label>
-			  		<select name="text" id="text">
-			  			<option value="Choose">Choose</option>
-  						<option value="1">1</option>
- 						<option value="2">2</option>
-  						<option value="3">3</option>
-  						<option value="4">4</option>
-					</select>
-			  <br>
+			
+				
+				<div class=row>
+					<div class = "col-sm-3 mx-3">
+						<h5>Gym Name</h5>
+					</div>
+					<h5>:-</h5>
+					<div class = "col-sm-8">
+						<h5>...</h5>
+					</div>
+				</div>
+				<br><hr><br>
+				
+				<div class=row>
+					<div class = "col-sm-3 mx-3">
+						<h5>Description</h5>
+					</div>
+					<h5>:-</h5>
+					<div class = "col-sm-8">
+						<h5>...</h5>
+					</div>
+				</div>
+				<br><hr><br>
+				
+				<div class=row>
+					<div class = "col-sm-3 mx-3">
+						<h5>Services</h5>
+					</div>
+					<h5>:-</h5>
+					<div class = "col-sm-8">
+					
+						<select name="service" class="form-control form-control" id="service" onchange="displaymain()">
+					     	 	<option value="Select Service">Select Service</option>
+		   					 
+		   					 <% for(int i = 0; i < 10; i++)
+		  					{	
+		  					%>
+		  						<option value="any">Anything Fetch from the database</option>
+		  					<%
+		  					} 
+		  					%>
+						</select>
+					</div>
+				</div>
+		
 			 </div>
 		</div>
 		
 		<hr>
 		
-		<div class="container-fluid py-3">
+		<div class="container-fluid py-3" id="main" style="display:none">
 			<div class="container border border-info rounded px-3 py-3">
-			<h2 align="center" style="color:Candy Red">Service</h2>
-			  <br>
-				    <label for="loginid" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Service Name :-</label>
-			  <hr>
-			  <br>
-			  		<label for="password" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Fees :-</label>
-			  <hr>
-			  <br>
-			  		<label for="text" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Availabe For :-</label>
-			  <hr>
-			  <br>
-			  		<label for="password" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Description :-</label>
-					    <div align="right">
-    					<input type="button" id="SP" value="Service Classes" />
-    					</div>				
+				<h2 align="center" style="color:Candy Red">Service</h2>
+				  <br>
+			  
+			  	<div class=row>
+					<div class = "col-sm-3 mx-3">
+						<h5>Service Name</h5>
+					</div>
+					<h5>:-</h5>
+					<div class = "col-sm-8">
+						<h5>...</h5>
+					</div>
+				</div>
+				<br><hr><br>
+				
+				<div class=row>
+					<div class = "col-sm-3 mx-3">
+						<h5>Fees</h5>
+					</div>
+					<h5>:-</h5>
+					<div class = "col-sm-8">
+						<h5>...</h5>
+					</div>
+				</div>
+				<br><hr><br>
+				
+				<div class=row>
+					<div class = "col-sm-3 mx-3">
+						<h5>Availabe For</h5>
+					</div>
+					<h5>:-</h5>
+					<div class = "col-sm-8">
+						<h5>...</h5>
+					</div>
+				</div>
+				<br><hr><br>
+				
+				<div class=row>
+					<div class = "col-sm-3 mx-3">
+						<h5>Description</h5>
+					</div>
+					<h5>:-</h5>
+					<div class = "col-sm-8">
+						<h5>...</h5>
+					</div>
+				</div>
+			  
+			  	<div align="right">
+    					<button class="btn btn-primary">Service Classes</button>
+    			</div>	
+			  			
 			 </div>
 		</div>
 		
+		
+		<script type="text/javascript">
+			  function displaymain()
+			  {
+				  var z = document.getElementById("service").value;
+				  var y = document.getElementById("main");
+				  if(z != null && z != "Select Service")
+				  		y.style.display= "block";
+				  else
+					  	y.style.display= "none";
+			  } 
+		</script>
 	</body>
 </html>
