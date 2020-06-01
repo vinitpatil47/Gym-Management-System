@@ -20,7 +20,7 @@
 		
 	</head>
 	
-	<body>
+	<body background="Pictures/g3.jpg">
 		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #22313F">
 			<a class="navbar-brand" href="#">SVGYM</a>    
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

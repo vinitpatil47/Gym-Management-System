@@ -22,7 +22,7 @@
 		
 	</head>
 	
-	<body background="Pictures/gym.jpg">
+	<body>
 
 		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #22313F">
 			<a class="navbar-brand" href="#">SVGYM</a>    
@@ -66,6 +66,7 @@
 			  <br>
 			  		<label for="text" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Services :-</label>
 			  		<select name="text" id="text">
+			  			<option value="Choose">Choose</option>
   						<option value="1">1</option>
  						<option value="2">2</option>
   						<option value="3">3</option>
@@ -88,15 +89,11 @@
 			  <hr>
 			  <br>
 			  		<label for="text" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Availabe For :-</label>
-			  		<select name="text" id="text">
-  						<option value="Female">Female</option>
- 						<option value="Female">Male</option>
-					</select>
 			  <hr>
 			  <br>
 			  		<label for="password" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Description :-</label>
 					    <div align="right">
-    					<input type="button" style="color: blue"value="Service Classes" />
+    					<input type="button" id="SP" value="Service Classes" />
     					</div>				
 			 </div>
 		</div>
