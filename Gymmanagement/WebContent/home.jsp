@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Login</title>
+		<title>Home</title>
   		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
@@ -49,7 +49,7 @@
 			    </div>
 		</nav>
 		
-		<img src="Pictures/gym1.jpg" alt="Girl in a jacket" style="width:100%;height:600px">
+		<img src="Pictures/g3.jpg" alt="Girl in a jacket" style="width:100%;height:600px">
 		
 		
 		<div class="container">
