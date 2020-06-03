@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Services</title>
+		<title>Classes</title>
   		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		
@@ -69,23 +69,9 @@
 				
 				<div class=row>
 					<div class = "col-sm-2 mx-2">
-						<h5>Services</h5>
+						<h5>Service</h5>
 					</div>
 					<h5>:-</h5>
-					<div class = "col-sm-9">
-					
-						<select name="service" class="form-control form-control" id="service" onchange="displaymain()">
-					     	 	<option value="Select Service">Select Service</option>
-		   					 
-		   					 <% for(int i = 0; i < 10; i++)
-		  					{	
-		  					%>
-		  						<option value="any">Anything Fetch from the database</option>
-		  					<%
-		  					} 
-		  					%>
-						</select>
-					</div>
 				</div>
 		
 			 </div>
@@ -93,14 +79,23 @@
 		
 		<hr>
 		
-		<div class="container-fluid py-3" id="main" style="display:none">
+		<div class="container-fluid py-3">
+		<div class="container border border-info rounded px-3 py-3">
+				<h2 align="center" style="color:Candy Red">Classes</h2>
+		
+		
+		<% 
+  		for(int i = 1; i < 6; i++)
+  		{
+  		%>
+		<div class="container-fluid py-3">
 			<div class="container border border-info rounded px-3 py-3">
-				<h2 align="center" style="color:Candy Red">Service</h2>
+				<h2 align="center" style="color:Candy Red"> Class</h2>
 				  <br>
 			  
 			  	<div class=row>
 					<div class = "col-sm-2 mx-2">
-						<h5>Service Name</h5>
+						<h5>Timing</h5>
 					</div>
 					<h5>:-</h5>
 					<div class = "col-sm-9">
@@ -111,7 +106,7 @@
 				
 				<div class=row>
 					<div class = "col-sm-2 mx-2">
-						<h5>Fees</h5>
+						<h5>Week Days</h5>
 					</div>
 					<h5>:-</h5>
 					<div class = "col-sm-9">
@@ -122,18 +117,20 @@
 				
 				<div class=row>
 					<div class = "col-sm-2 mx-2">
-						<h5>Available For</h5>
+						<h5>Member Strength</h5>
 					</div>
 					<h5>:-</h5>
 					<div class = "col-sm-9">
 						<h5>...</h5>
 					</div>
 				</div>
-				<br><hr><br>
+			  
+			  
+			  	<br><hr><br>
 				
 				<div class=row>
 					<div class = "col-sm-2 mx-2">
-						<h5>Description</h5>
+						<h5>Trainer Name</h5>
 					</div>
 					<h5>:-</h5>
 					<div class = "col-sm-9">
@@ -142,22 +139,16 @@
 				</div>
 			  
 			  	<div align="right">
-    					<button class="btn btn-primary">Service Classes</button>
+    					<button class="btn btn-primary">Take Membership</button>
     			</div>	
 			  			
 			 </div>
-		</div>		
+		</div>
+		<% 
+       	}
+       	%>	
+       	</div>
+       	</div>	
 		
-		<script type="text/javascript">
-			  function displaymain()
-			  {
-				  var z = document.getElementById("service").value;
-				  var y = document.getElementById("main");
-				  if(z != null && z != "Select Service")
-				  		y.style.display= "block";
-				  else
-					  	y.style.display= "none";
-			  } 
-		</script>
 	</body>
 </html>
