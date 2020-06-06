@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/adminlte.min.css">
 	    
-		<title>Profile</title>
+		<title>Current Gym</title>
 	</head>
 	<body>
 	
@@ -73,11 +73,11 @@
 			                        </li>
 										
 									<li class="nav-item">
-			                                      <a href="currentgym.jsp" class="nav-link ">
+			                                      <a href="gymhistory.jsp" class="nav-link ">
 			                                      	<i class="fa fa-database nav-icon" aria-hidden="true"></i>
 			                                        Gym History
 			                                      </a>
-			                        </li>  
+			                        </li>   
 			                        
 			                    </ul>
 			                </nav>
@@ -96,29 +96,7 @@
 				
 				<div class=row>
 					<div class = "col-sm-2 mx-2">
-						<h5>Name</h5>
-					</div>
-					<h5>:-</h5>
-					<div class = "col-sm-9">
-						<h5>...</h5>
-					</div>
-				</div>
-				<br><hr><br>
-				
-				<div class=row>
-					<div class = "col-sm-2 mx-2">
-						<h5>EmailId</h5>
-					</div>
-					<h5>:-</h5>
-					<div class = "col-sm-9">
-						<h5>...</h5>
-					</div>
-				</div>
-				<br><hr><br>
-				
-				<div class=row>
-					<div class = "col-sm-2 mx-2">
-						<h5>LoginId</h5>
+						<h5>Gym Name</h5>
 					</div>
 					<h5>:-</h5>
 					<div class = "col-sm-9">
@@ -140,7 +118,7 @@
 				
 				<div class=row>
 					<div class = "col-sm-2 mx-2">
-						<h5>DOB</h5>
+						<h5>Service Name</h5>
 					</div>
 					<h5>:-</h5>
 					<div class = "col-sm-9">
@@ -148,11 +126,21 @@
 					</div>
 				</div>
 				<br><hr><br>
-		
-		
+				
 				<div class=row>
 					<div class = "col-sm-2 mx-2">
-						<h5>Gender</h5>
+						<h5>Class Timing</h5>
+					</div>
+					<h5>:-</h5>
+					<div class = "col-sm-9">
+						<h5>...</h5>
+					</div>
+				</div>
+				<br><hr><br>
+				
+				<div class=row>
+					<div class = "col-sm-2 mx-2">
+						<h5>Date Of Registration</h5>
 					</div>
 					<h5>:-</h5>
 					<div class = "col-sm-9">
@@ -160,10 +148,10 @@
 					</div>
 				</div>
 			
-				<div align="center">
-    					<button class="btn btn-primary" onclick="window.location.href = 'profile1.jsp';">Edit Profile</button>
-    			</div>
-			  .
+				<div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
+			      <button type="submit" class="btn btn-primary">Cancel Membership</button>
+			  	</div>
+		
 			 </div>
 		</div>
 				</div>
