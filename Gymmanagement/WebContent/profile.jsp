@@ -13,7 +13,7 @@
 	</head>
 	<body>
 	
-			<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #22313F">
+			<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #22313F">
 				<a class="navbar-brand" href="#">SVGYM</a>    
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -22,10 +22,10 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 	                          <ul class="navbar-nav mr-auto">
 		                            <li class="nav-item active">
-		                              <a class="nav-link p-2" href="">Home</a>
+		                              <a class="nav-link p-2" href="home.jsp">Home</a>
 		                            </li>
 		                            <li class="nav-item active">
-		                              <a class="nav-link p-2" href="">Services</a>
+		                              <a class="nav-link p-2" href="services.jsp">Services</a>
 		                            </li>
 		                            <li class="nav-item active">
 		                              <a class="nav-link p-2" href="">About</a>
@@ -36,19 +36,19 @@
 	                <div class="inline my-2 my-lg-0">
 				    	  <a class="p-4" href="signup.jsp" id= "SP" style="color:white"><i class="fa fa-user-plus nav-icon"></i> Sign Up</a>
 				    	  <a class="p-4" href="login.jsp" id= "SP" style="color:white"><i class="fa fa-sign-in nav-icon"></i> Login</a>
-				    	  <a class="p-4" href="#" id= "SP" style="color:white"><i class="fa fa-user nav-icon"></i> Profile</a>
+				    	  <a class="p-4" href="profile.jsp" id= "SP" style="color:white"><i class="fa fa-user nav-icon"></i> Profile</a>
 				    	  <a class="p-4" href="#" id= "SP" style="color:white"><i class="fa fa-sign-out nav-icon"></i> Logout</a>
 				    </div>
 			</nav>
 		
-			<div class="row">
+			<div class="row mt-5">
 				<div class="col-sm-3">
 				
 					<aside style="margin-top:55px" class="main-sidebar sidebar-dark-info elevation-4">
 					
 			            <a class="brand-link">
-			                <img src="images/lo.png" class="brand-image elevation-6" width="150px">
-			                <span class="brand-text font-weight-heavy ml-1" style="color: white;">Sports 24X7
+			                <img src="Pictures/body.jpg" class="brand-image elevation-6" width="150px">
+			                <span class="brand-text font-weight-heavy ml-1" style="color: white;">Gym
 			                </span>
 			                
 			            </a>
@@ -60,21 +60,21 @@
 			
 			                         <li class="nav-item">
 			                                      <a href="profile.jsp" class="nav-link " style="color:#fff;background-color: rgba(255,255,255,0.1)">
-			                                      	<i class="fa fa-database nav-icon" aria-hidden="true"></i>
+			                                      	<i class="fa fa-user-o nav-icon" aria-hidden="true"></i>
 			                                        Profile
 			                                      </a>
 			                        </li> 
 			                        
 			                        <li class="nav-item">
 			                                      <a href="currentgym.jsp" class="nav-link ">
-			                                      	<i class="fa fa-database nav-icon" aria-hidden="true"></i>
+			                                      	<i class="fa fa-bolt nav-icon" aria-hidden="true"></i>
 			                                        Current Gym
 			                                      </a>
 			                        </li>
 										
 									<li class="nav-item">
 			                                      <a href="currentgym.jsp" class="nav-link ">
-			                                      	<i class="fa fa-database nav-icon" aria-hidden="true"></i>
+			                                      	<i class="fa fa-history nav-icon" aria-hidden="true"></i>
 			                                        Gym History
 			                                      </a>
 			                        </li>  
@@ -103,7 +103,7 @@
 						<h5>...</h5>
 					</div>
 				</div>
-				<br><hr><br>
+				<hr><br>
 				
 				<div class=row>
 					<div class = "col-sm-2 mx-2">
@@ -114,7 +114,7 @@
 						<h5>...</h5>
 					</div>
 				</div>
-				<br><hr><br>
+				<hr><br>
 				
 				<div class=row>
 					<div class = "col-sm-2 mx-2">
@@ -125,7 +125,7 @@
 						<h5>...</h5>
 					</div>
 				</div>
-				<br><hr><br>
+				<hr><br>
 				
 				<div class=row>
 					<div class = "col-sm-2 mx-2">
@@ -136,7 +136,7 @@
 						<h5>...</h5>
 					</div>
 				</div>
-				<br><hr><br>
+				<hr><br>
 				
 				<div class=row>
 					<div class = "col-sm-2 mx-2">
@@ -147,7 +147,7 @@
 						<h5>...</h5>
 					</div>
 				</div>
-				<br><hr><br>
+				<hr><br>
 		
 		
 				<div class=row>

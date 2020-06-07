@@ -24,7 +24,7 @@
 	
 	<body>
 
-		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #22313F">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #22313F">
 			<a class="navbar-brand" href="#">SVGYM</a>    
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -33,10 +33,10 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
                           <ul class="navbar-nav mr-auto">
 	                            <li class="nav-item active">
-	                              <a class="nav-link p-2" href="">Home</a>
+	                              <a class="nav-link p-2" href="home.jsp">Home</a>
 	                            </li>
 	                            <li class="nav-item active">
-	                              <a class="nav-link p-2" href="">Services</a>
+	                              <a class="nav-link p-2" href="services.jsp">Services</a>
 	                            </li>
 	                            <li class="nav-item active">
 	                              <a class="nav-link p-2" href="">About</a>
@@ -47,7 +47,7 @@
                 <div class="inline my-2 my-lg-0">
 			    	  <a class="p-4" href="signup.jsp" id= "SP" style="color:white"><i class="fa fa-user-plus nav-icon"></i> Sign Up</a>
 			    	  <a class="p-4" href="login.jsp" id= "SP" style="color:white"><i class="fa fa-sign-in nav-icon"></i> Login</a>
-			    	  <a class="p-4" href="#" id= "SP" style="color:white"><i class="fa fa-user nav-icon"></i> Profile</a>
+			    	  <a class="p-4" href="profile.jsp" id= "SP" style="color:white"><i class="fa fa-user nav-icon"></i> Profile</a>
 			    	  <a class="p-4" href="#" id= "SP" style="color:white"><i class="fa fa-sign-out nav-icon"></i> Logout</a>
 			    </div>
 		</nav>
