@@ -89,11 +89,11 @@
 				</div>
 				
 				<div class="col-sm-9">
-					<div class="container-fluid py-3">
-			<div class="container border border-info rounded px-3 py-3">
-			<h2 align="center" style="color:churchill">Gym</h2>
+					<div class="container-fluid py-3" >
+			<div class="container-fluid border border-info rounded px-3 py-3" style="max-width:1000px;float:left">
 			
-				
+				<!-- sunju madam put here profile picture -->
+					
 				<div class=row>
 					<div class = "col-sm-2 mx-2">
 						<h5>Name</h5>

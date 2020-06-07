@@ -90,7 +90,7 @@
 				
 				<div class="col-sm-9">
 					<div class="container-fluid py-3">
-			<div class="container border border-info rounded px-3 py-3">
+			<div class="container border border-info rounded px-3 py-3" style="max-width:1000px;float:left">
 			<h2 align="center" style="color:churchill">Gym</h2>
 			
 				

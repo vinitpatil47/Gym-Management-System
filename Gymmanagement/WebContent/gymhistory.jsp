@@ -93,11 +93,11 @@
 		  			{	
 		  			%>
 				
-					<div class="container-fluid py-3">
-			<div class="container border border-info rounded px-3 py-3">
+					<div class="container p-3 mt-3">
+			<div class="container border border-info rounded mb-3" style="max-width:1000px;float:left">
 			
 				
-				<div class=row>
+				<div class="row mt-3">
 					<div class = "col-sm-2 mx-2">
 						<h5>Gym Name</h5>
 					</div>
@@ -108,7 +108,7 @@
 				</div>
 				<hr><br>
 				
-				<div class=row>
+				<div class="row">
 					<div class = "col-sm-2 mx-2">
 						<h5>Address</h5>
 					</div>
@@ -119,7 +119,7 @@
 				</div>
 				<hr><br>
 				
-				<div class=row>
+				<div class="row">
 					<div class = "col-sm-2 mx-2">
 						<h5>Services</h5>
 					</div>
@@ -130,7 +130,7 @@
 				</div>
 				<hr><br>
 				
-				<div class=row>
+				<div class="row">
 					<div class = "col-sm-2 mx-2">
 						<h5>Class Timing</h5>
 					</div>
@@ -141,7 +141,7 @@
 				</div>
 				<hr><br>
 				
-				<div class=row>
+				<div class="row">
 					<div class = "col-sm-2 mx-2">
 						<h5>Date</h5>
 					</div>
