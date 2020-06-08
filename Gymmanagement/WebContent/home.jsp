@@ -81,15 +81,14 @@
        			}
        			%>
        			
-  		   		<div class="col-sm-4">
+  		   			<div class="col-sm-4">
 		   				<div class="card-header text-white" style="background-color:white;">
 		      				<a href="login.jsp" class="card-link">
-							<div class="card-body" align="center">
-							
-							<button type="button" class="btn btn-outline-default btn-rounded waves-effect"></button>
-							
-			  					<i class="fa fa-plus fa-5x align-middle" aria-hidden="true" style="height:310px;width:310px;"></i>			    				
-			  				</div>
+								<div class="card-body align-items-center d-flex justify-content-center" style="height:318px">
+								
+				  					<i class="fa fa-plus fa-5x" aria-hidden="true"></i>	
+				  							    				
+				  				</div>
 			  				</a>			
 		       			</div>
 	       			</div>
