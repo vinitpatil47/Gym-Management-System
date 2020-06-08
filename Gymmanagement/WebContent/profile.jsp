@@ -88,11 +88,19 @@
 				
 				</div>
 				
+				
 				<div class="col-sm-9">
 					<div class="container-fluid py-3" >
+					
+					<div align=center>
+						<img src="Pictures/profile.png" alt="icon name" class="rounded" style="width:100px;height:100px;">
+					</div>
+					
+
 			<div class="container-fluid border border-info rounded px-3 py-3" style="max-width:1000px;float:left">
 			
-				<!-- sunju madam put here profile picture -->
+				
+
 					
 				<div class=row>
 					<div class = "col-sm-2 mx-2">
