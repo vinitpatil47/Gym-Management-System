@@ -86,7 +86,7 @@
 		      				<a href="login.jsp" class="card-link">
 								<div class="card-body align-items-center d-flex justify-content-center" style="height:318px">
 								
-				  					<i class="fa fa-plus fa-5x" aria-hidden="true"></i>	
+				  					<img src="Pictures/bplus.jpeg" style="height: 200px;width:200px;" class="card-img-top" alt="...">
 				  							    				
 				  				</div>
 			  				</a>			
