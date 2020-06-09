@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Add Gym</title>
+		<title>Modify</title>
   		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
@@ -58,7 +58,7 @@
 	
 		<form method="post">
 			<div class="container border border-info rounded px-3 py-3">
-			<h2 align="center" style="color:blue">Add Gym</h2>
+			<h2 align="center" style="color:blue">Modify Details</h2>
 			<br>
 			
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
@@ -125,7 +125,7 @@
 			 	
 			 	
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-			      <button type="submit" class="btn btn-primary">Add</button>
+			      <button type="submit" class="btn btn-primary">Update</button>
 			  </div>
 			 
 			  </div>

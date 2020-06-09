@@ -76,7 +76,7 @@
 					
 						<select name="service" class="form-control form-control" id="service" onchange="displaymain()">
 					     	 	<option value="Select Service">Select Service</option>
-		   					 
+					     	 	<option value="Add more">Add more</option>
 		   					 <% for(int i = 0; i < 10; i++)
 		  					{	
 		  					%>
@@ -96,7 +96,7 @@
 		<div class="container-fluid py-3" id="main" style="display:none">
 			<div class="container border border-info rounded px-3 py-3">
 				<h2 align="center" style="color:Candy Red">Service</h2>
-				  <br>
+				  <br> 
 			  
 			  	<div class=row>
 					<div class = "col-sm-2 mx-2">
@@ -148,15 +148,71 @@
 			 </div>
 		</div>		
 		
+				<div class="container-fluid py-3" id="main1" style="display:none">
+			<div class="container border border-info rounded px-3 py-3">
+				<h2 align="center" style="color:Candy Red">Add Service</h2>
+				  <br> 
+			  
+			  	<div class=row>
+					<div class = "col-sm-2 mx-2">
+						<h5>Service Name</h5>
+					</div>
+					<h5>:-</h5>
+					<div class = "col-sm-9">
+						<h5>...</h5>
+					</div>
+				</div>
+				<br><hr><br>
+				
+				<div class=row>
+					<div class = "col-sm-2 mx-2">
+						<h5>Fees</h5>
+					</div>
+					<h5>:-</h5>
+					<div class = "col-sm-9">
+						<h5>...</h5>
+					</div>
+				</div>
+				<br><hr><br>
+				
+				<div class=row>
+					<div class = "col-sm-2 mx-2">
+						<h5>Available For</h5>
+					</div>
+					<h5>:-</h5>
+					<div class = "col-sm-9">
+						<h5>...</h5>
+					</div>
+				</div>
+			  
+			  	<div align="right">
+    					<button class="btn btn-primary">Add</button>
+    			</div>	
+			  			
+			 </div>
+		</div>
+		
 		<script type="text/javascript">
 			  function displaymain()
 			  {
 				  var z = document.getElementById("service").value;
 				  var y = document.getElementById("main");
-				  if(z != null && z != "Select Service")
-				  		y.style.display= "block";
+				  var p = document.getElementById("main1");
+				  
+				  if(z != null && (z == "Add more"))
+				  {
+				  		p.style.display= "block";
+				  }
+				  
+				  else if(z != null && (z == "any"))
+				  {
+					  y.style.display= "block";
+				  }
 				  else
-					  	y.style.display= "none";
+				  {
+					  	p.style.display= "none";	
+					  	y.style.display= "none";	
+				  }	  
 			  } 
 		</script>
 	</body>
