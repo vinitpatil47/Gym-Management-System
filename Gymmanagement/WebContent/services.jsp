@@ -202,11 +202,13 @@
 				  if(z != null && (z == "Add more"))
 				  {
 				  		p.style.display= "block";
+				  		y.style.display= "none";	
 				  }
 				  
 				  else if(z != null && (z == "any"))
 				  {
 					  y.style.display= "block";
+					  p.style.display= "none";	
 				  }
 				  else
 				  {
