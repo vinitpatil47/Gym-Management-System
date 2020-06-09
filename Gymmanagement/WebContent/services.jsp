@@ -148,49 +148,48 @@
 			 </div>
 		</div>		
 		
-				<div class="container-fluid py-3" id="main1" style="display:none">
+		<div class="container-fluid py-3" id="main1">
+	
+		<form method="post">
 			<div class="container border border-info rounded px-3 py-3">
-				<h2 align="center" style="color:Candy Red">Add Service</h2>
-				  <br> 
+			<h2 align="center" style="color:blue">Login</h2>
+			<br>
+			
+			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
+				    <label for="loginid" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Service Name</label>
+				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
+				      <input type="text" name="loginid" class="form-control form-control-lg" id="loginid" placeholder="Service Name">
+				    </div>
+			  </div>
+			  <br>
+			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
+				    <label for="password" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Fees</label>
+				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
+				      <input type="password" name="password" class="form-control form-control-lg" id="password" placeholder="Fees">
+				    </div>
+			  </div>
+			  <br>
+			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
+				    <label for="password" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Available For</label>
+				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
+				      <select name="password" class="form-control form-control">
+					     	 	<option value="Select">Select</option>
+					     	 	<option value="Female">Female</option>
+					     	 	<option value="Male">Male</option> 	
+						</select>
+				      
+				    </div>
+			  </div>
+			  <br>
 			  
-			  	<div class=row>
-					<div class = "col-sm-2 mx-2">
-						<h5>Service Name</h5>
-					</div>
-					<h5>:-</h5>
-					<div class = "col-sm-9">
-						<h5>...</h5>
-					</div>
-				</div>
-				<br><hr><br>
-				
-				<div class=row>
-					<div class = "col-sm-2 mx-2">
-						<h5>Fees</h5>
-					</div>
-					<h5>:-</h5>
-					<div class = "col-sm-9">
-						<h5>...</h5>
-					</div>
-				</div>
-				<br><hr><br>
-				
-				<div class=row>
-					<div class = "col-sm-2 mx-2">
-						<h5>Available For</h5>
-					</div>
-					<h5>:-</h5>
-					<div class = "col-sm-9">
-						<h5>...</h5>
-					</div>
-				</div>
-			  
-			  	<div align="right">
-    					<button class="btn btn-primary">Add</button>
-    			</div>	
-			  			
+			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
+			      <button type="submit" class="btn btn-primary">Submit</button>
+			  </div>
+			 
 			 </div>
-		</div>
+ 		 </form>
+	</div>
+
 		
 		<script type="text/javascript">
 			  function displaymain()
