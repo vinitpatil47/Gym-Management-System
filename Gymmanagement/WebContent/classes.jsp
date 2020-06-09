@@ -139,7 +139,10 @@
 				</div>
 			  
 			  	<div align="right">
+			  			<h3><a href="editclass.jsp" class="badge badge-success">Edit</a>
+			  			<a href="#" class="badge badge-danger">Delete</a>
     					<button class="btn btn-primary">Take Membership</button>
+    					</h3>
     			</div>	
 			  			
 			 </div>
@@ -147,8 +150,18 @@
 		<% 
        	}
        	%>	
+       		<a href="addclass.jsp">
+		       <div class="container-fluid py-3">
+					<div class="container border border-info rounded px-3 py-3">
+						<div align="center">
+							<img src="Pictures/bplus.jpeg" alt="add" style="width:70%;height:200px">
+						</div>
+					</div>
+				</div>
+			</a>
+			
        	</div>
        	</div>	
-		
+	
 	</body>
 </html>

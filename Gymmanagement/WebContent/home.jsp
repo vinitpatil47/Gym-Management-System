@@ -73,7 +73,7 @@
 			  							MOBILE NO<br>
 			  							
 			  							<br>
-			  							<a href="editgym" class="badge badge-primary">Edit</a>
+			  							<a href="editgym.jsp" class="badge badge-primary">Edit</a>
 			  							extra &nbsp;extra &nbsp;
 			  							<a href="#" class="badge badge-primary">Delete</a>
 			  					</div>        					    				
