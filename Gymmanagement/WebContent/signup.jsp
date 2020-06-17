@@ -56,7 +56,7 @@
 		
 		<div class="container-fluid py-3">
 	
-		<form method="post" action="/action_page.php">
+		<form method="post" action="signup">
 			<div class="container border border-info rounded px-3 py-3">
 			<h2 align="center" style="color:navy">Sign Up</h2>
 			<br>
@@ -79,15 +79,15 @@
 				    <label for="address"  style="color: black" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Address</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
 				    	<div class="form-group">
-     					<textarea class="form-control" rows="2" id="address" placeholder="Address"></textarea>
+     					<textarea class="form-control" rows="2" name="address" id="address" placeholder="Address"></textarea>
     		        	</div>
 				    </div>
 			  </div>
 			  <br>
 			   <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-				    <label for="id"  style="color: black" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">ID</label>
+				    <label for="loginid"  style="color: black" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Login ID</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="text" name="id" class="form-control form-control-lg" id="id" placeholder="ID">
+				      <input type="text" name="loginid" class="form-control form-control-lg" id="loginid" placeholder="Login ID">
 				    </div>
 			  </div>
 			  <br>
@@ -137,7 +137,7 @@
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
 				    <label for="password"  style="color: black" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Confirm password</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="password" name="password" class="form-control form-control-lg" id="password" placeholder="Password">
+				      <input type="password" name="cpassword" class="form-control form-control-lg" id="cpassword" placeholder="Confirm Password">
 				    </div>
 			  </div>
 			  <br>
