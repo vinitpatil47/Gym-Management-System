@@ -120,7 +120,7 @@
 			 	<div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
 				    <label for="tainername" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Trainer Name</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="text" name="tainername" class="form-control form-control-lg" id="tainername" placeholder="Trainer Name">
+				      <input type="text" name="trainername" class="form-control form-control-lg" id="trainername" placeholder="Trainer Name">
 				    </div>
 				  </div>
 				  <br>

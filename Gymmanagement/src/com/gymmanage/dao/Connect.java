@@ -12,7 +12,7 @@ public class Connect {
 		// TODO Auto-generated constructor stub
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			String url="jdbc:mysql://localhost/gymmanagement";
+			String url="jdbc:mysql://localhost/gymmanagement?serverTimezone=UTC";
 			String uname="root";
 			String passw="root";
 			this.connection = (Connection) DriverManager.getConnection(url,uname,passw);

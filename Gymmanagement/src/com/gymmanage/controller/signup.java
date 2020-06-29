@@ -54,6 +54,8 @@ public class signup extends HttpServlet {
 		
 		String confirm = request.getParameter("cpassword");
 		
+		System.out.println(confirm);
+		System.out.println(login);
 		
 		
 		if(login.getPassword().equals(confirm))
@@ -67,8 +69,7 @@ public class signup extends HttpServlet {
 			response.sendRedirect("signup.jsp");
 		}
 		
-		System.out.println(confirm);
-		System.out.println(login);
+		
 	}
 
 }

@@ -76,6 +76,7 @@
 					
 						<select name="service" class="form-control form-control" id="service" onchange="displaymain()">
 					     	 	<option value="Select Service">Select Service</option>
+					     	 	<option value="Add more">Add more</option>
 		   					 <% for(int i = 0; i < 10; i++)
 		  					{	
 		  					%>
@@ -83,7 +84,6 @@
 		  					<%
 		  					} 
 		  					%>
-		  					<option value="Add more">Add more</option>
 						</select>
 					</div>
 				</div>
@@ -148,11 +148,11 @@
 			 </div>
 		</div>		
 		
-		<div class="container-fluid py-3" id="main1" style="display:none">
+		<div class="container-fluid py-3" id="main1">
 	
 		<form method="post">
 			<div class="container border border-info rounded px-3 py-3">
-			<h2 align="center" style="color:blue">Add Services</h2>
+			<h2 align="center" style="color:blue">Login</h2>
 			<br>
 			
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
@@ -165,14 +165,14 @@
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
 				    <label for="password" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Fees</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="number" name="password" class="form-control form-control-lg" id="password" placeholder="Fees">
+				      <input type="number" name="number" class="form-control form-control-lg" id="number" placeholder="Fees">
 				    </div>
 			  </div>
 			  <br>
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
 				    <label for="password" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Available For</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <select name="password" class="form-control form-control-lg">
+				      <select name="password" class="form-control form-control" id="password">
 					     	 	<option value="Select">Select</option>
 					     	 	<option value="Female">Female</option>
 					     	 	<option value="Male">Male</option> 	

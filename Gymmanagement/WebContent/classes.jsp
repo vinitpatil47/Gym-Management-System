@@ -154,7 +154,7 @@
 		       <div class="container-fluid py-3">
 					<div class="container border border-info rounded px-3 py-3">
 						<div align="center">
-							<img src="Pictures/bplus.jpeg" alt="add" style="width:70%;height:200px">
+							<img src="Pictures/bplus.jpeg" alt="add" style="width:200px;height:200px">
 						</div>
 					</div>
 				</div>

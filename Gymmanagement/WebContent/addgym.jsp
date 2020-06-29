@@ -71,7 +71,7 @@
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
 				    <label for="password" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">City</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="password" name="password" class="form-control form-control-lg" id="password" placeholder="City">
+				      <input type="text" name="city" class="form-control form-control-lg" id="city" placeholder="City">
 				    </div>
 			  </div>
 			  <br>

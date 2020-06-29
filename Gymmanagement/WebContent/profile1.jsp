@@ -64,42 +64,42 @@
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
 				    <label for="loginid" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Name</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="text" name="loginid" class="form-control form-control-lg" id="loginid" placeholder="Login Id">
+				      <input type="text" name="name" class="form-control form-control-lg" id="name" placeholder="Name">
 				    </div>
 			  </div>
 			  <br>
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
 				    <label for="password" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">EmailId</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="password" name="password" class="form-control form-control-lg" id="password" placeholder="Password">
+				      <input type="email" name="email" class="form-control form-control-lg" id="email" placeholder="EmailId">
 				    </div>
 			  </div>
 			  <br>
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
 				    <label for="password" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">LoginId</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="password" name="password" class="form-control form-control-lg" id="password" placeholder="Password">
+				      <input type="text" name="loginid" class="form-control form-control-lg" id="loginid" placeholder="LoginId">
 				    </div>
 			  </div>
 			  <br>
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
 				    <label for="password" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Address</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="password" name="password" class="form-control form-control-lg" id="password" placeholder="Password">
+				      <input type="text" name="address" class="form-control form-control-lg" id="address" placeholder="Address">
 				    </div>
 			  </div>
 			  <br>
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
 				    <label for="password" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">DOB</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="password" name="password" class="form-control form-control-lg" id="password" placeholder="Password">
+				      <input type="date" name="dob" class="form-control form-control-lg" id="dob" placeholder="DOB">
 				    </div>
 			  </div>
 			  <br>
 			  <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
 				    <label for="password" class="col-form-label-lg col-xs-5 col-sm-2 col-md-2 col-lg-2">Gender</label>
 				    <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
-				      <input type="password" name="password" class="form-control form-control-lg" id="password" placeholder="Password">
+				      <input type="text" name="gender" class="form-control form-control-lg" id="gender" placeholder="Gender">
 				    </div>
 			  </div>
 			  <br>
