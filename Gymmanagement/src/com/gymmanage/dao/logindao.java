@@ -39,4 +39,37 @@ public class logindao {
 			e.printStackTrace();
 		}
 	}
+		
+	public Login checkLogin(String loginid, String password) throws SQLException,ClassNotFoundException 
+		{
+			Connection con = new Connect().getConnection();
+			
+			String str = "SELECT * FROM login WHERE loginid = ? and password = ?";
+			PreparedStatement statement = con.prepareStatement(str);
+			statement.setString(1, loginid);
+			statement.setString(2, password);
+
+			ResultSet result = statement.executeQuery();
+
+			Login login = null;
+			
+			if (result.next())
+			{
+				login = new Login();
+				login.setName(result.getString("name"));
+				login.setLoginid(result.getString("loginid"));
+				login.setAddress(result.getString("address"));
+				login.setDob(result.getString("dob"));
+				login.setPassword(result.getString("password"));
+				login.setRole(result.getString("role"));
+				login.setGender(result.getString("gender"));
+				login.setEmailid(result.getString("emailid"));
+				login.setMobile(result.getInt("mobile"));
+			}
+			
+			System.out.println(login);
+			con.close();
+
+			return login;
+		}
 }

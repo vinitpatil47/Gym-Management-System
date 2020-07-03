@@ -56,7 +56,7 @@
 		
 		<div class="container-fluid py-3">
 	
-		<form method="post">
+		<form method="post" action="login">
 			<div class="container border border-info rounded px-3 py-3">
 			<h2 align="center" style="color:blue">Login</h2>
 			<br>

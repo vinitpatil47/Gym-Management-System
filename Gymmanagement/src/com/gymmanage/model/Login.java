@@ -50,7 +50,12 @@ public class Login {
 	public String getAddress() {
 		return address;
 	}
-
+	
+	public void setEmail(String email)
+	{
+		this.emailid = email;
+	}
+	
 	public void setAddress(String address) {
 		this.address = address;
 	}
