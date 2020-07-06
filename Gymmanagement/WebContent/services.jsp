@@ -10,6 +10,15 @@
 	
 	<body>
 
+	<%
+		HttpSession session1 = request.getSession();
+		if(session1.getAttribute("user")==null)
+		{
+			response.sendRedirect("login.jsp");
+		}
+	%>
+
+
 		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #22313F">
 			<a class="navbar-brand" href="#">SVGYM</a>    
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +43,7 @@
 			    	  <a class="p-4" href="signup.jsp" id= "SP" style="color:white"><i class="fa fa-user-plus nav-icon"></i> Sign Up</a>
 			    	  <a class="p-4" href="login.jsp" id= "SP" style="color:white"><i class="fa fa-sign-in nav-icon"></i> Login</a>
 			    	  <a class="p-4" href="profile.jsp" id= "SP" style="color:white"><i class="fa fa-user nav-icon"></i> Profile</a>
-			    	  <a class="p-4" href="#" id= "SP" style="color:white"><i class="fa fa-sign-out nav-icon"></i> Logout</a>
+			    	  <a class="p-4" href="logout" id= "SP" style="color:white"><i class="fa fa-sign-out nav-icon"></i> Logout</a>
 			    </div>
 		</nav>
 

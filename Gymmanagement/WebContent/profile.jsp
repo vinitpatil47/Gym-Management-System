@@ -1,3 +1,4 @@
+<%@page import="com.gymmanage.model.Login"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -12,6 +13,11 @@
 		<title>Profile</title>
 	</head>
 	<body>
+	
+	<%
+		HttpSession session1 = request.getSession();
+		Login login = (Login)session.getAttribute("user");
+	%>
 	
 			<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #22313F">
 				<a class="navbar-brand" href="#">SVGYM</a>    
@@ -37,7 +43,7 @@
 				    	  <a class="p-4" href="signup.jsp" id= "SP" style="color:white"><i class="fa fa-user-plus nav-icon"></i> Sign Up</a>
 				    	  <a class="p-4" href="login.jsp" id= "SP" style="color:white"><i class="fa fa-sign-in nav-icon"></i> Login</a>
 				    	  <a class="p-4" href="profile.jsp" id= "SP" style="color:white"><i class="fa fa-user nav-icon"></i> Profile</a>
-				    	  <a class="p-4" href="#" id= "SP" style="color:white"><i class="fa fa-sign-out nav-icon"></i> Logout</a>
+				    	  <a class="p-4" href="logout" id= "SP" style="color:white"><i class="fa fa-sign-out nav-icon"></i> Logout</a>
 				    </div>
 			</nav>
 		
@@ -108,7 +114,7 @@
 					</div>
 					<h5>:-</h5>
 					<div class = "col-sm-9">
-						<h5>...</h5>
+						<h5><%=login.getName() %></h5>
 					</div>
 				</div>
 				<hr><br>
@@ -119,7 +125,7 @@
 					</div>
 					<h5>:-</h5>
 					<div class = "col-sm-9">
-						<h5>...</h5>
+						<h5><%=login.getEmailid() %></h5>
 					</div>
 				</div>
 				<hr><br>
@@ -130,7 +136,7 @@
 					</div>
 					<h5>:-</h5>
 					<div class = "col-sm-9">
-						<h5>...</h5>
+						<h5><%=login.getLoginid() %></h5>
 					</div>
 				</div>
 				<hr><br>
@@ -141,7 +147,7 @@
 					</div>
 					<h5>:-</h5>
 					<div class = "col-sm-9">
-						<h5>...</h5>
+						<h5><%=login.getAddress() %></h5>
 					</div>
 				</div>
 				<hr><br>
@@ -152,7 +158,7 @@
 					</div>
 					<h5>:-</h5>
 					<div class = "col-sm-9">
-						<h5>...</h5>
+						<h5><%=login.getDob() %></h5>
 					</div>
 				</div>
 				<hr><br>
@@ -164,7 +170,7 @@
 					</div>
 					<h5>:-</h5>
 					<div class = "col-sm-9">
-						<h5>...</h5>
+						<h5><%=login.getGender() %></h5>
 					</div>
 				</div>
 			
