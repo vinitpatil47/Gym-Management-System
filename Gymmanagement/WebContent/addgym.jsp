@@ -22,6 +22,10 @@
 		
 	</head>
 	
+	<% 
+	HttpSession session1 = request.getSession();
+	%>
+	
 	<body>
 
 		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #22313F">
@@ -45,10 +49,22 @@
                 </div>
                 
                 <div class="inline my-2 my-lg-0">
-			    	  <a class="p-4" href="signup.jsp" id= "SP" style="color:white"><i class="fa fa-user-plus nav-icon"></i> Sign Up</a>
-			    	  <a class="p-4" href="login.jsp" id= "SP" style="color:white"><i class="fa fa-sign-in nav-icon"></i> Login</a>
-			    	  <a class="p-4" href="profile.jsp" id= "SP" style="color:white"><i class="fa fa-user nav-icon"></i> Profile</a>
-			    	  <a class="p-4" href="logout" id= "SP" style="color:white"><i class="fa fa-sign-out nav-icon"></i> Logout</a>
+			    	  <% 
+                      if(session1.getAttribute("user")==null) 
+                      {
+                      %>
+			    	  	<a class="p-4" href="signup.jsp" id= "SP" style="color:white"><i class="fa fa-user-plus nav-icon"></i> Sign Up</a>
+			    	  	<a class="p-4" href="login.jsp" id= "SP" style="color:white"><i class="fa fa-sign-in nav-icon"></i> Login</a>
+			    	  <%
+			    	  }
+			    	  else 
+			    	  {
+			    	  %>
+			    	  	<a class="p-4" href="profile.jsp" id= "SP" style="color:white"><i class="fa fa-user nav-icon"></i> Profile</a>
+			    	  	<a class="p-4" href="logout" id= "SP" style="color:white"><i class="fa fa-sign-out nav-icon"></i> Logout</a>
+		              <% 
+		              }	   
+            		  %>
 			    </div>
 		</nav>
 
