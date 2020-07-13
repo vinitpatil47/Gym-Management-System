@@ -8,7 +8,7 @@ import com.gymmanage.model.Login;
 
 public class homedao
 {
-	public void getgymowner()
+	public void Getgymowner()
 	{
 		Connection con = new Connect().getConnection();
 		
