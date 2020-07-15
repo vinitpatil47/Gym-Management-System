@@ -1,4 +1,7 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="java.util.List"%>
 <%@page import="com.gymmanage.model.Login"%>
+<%@page import="com.gymmanage.model.Gym"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -21,7 +24,22 @@
 		
 	</head>
 	
+	<% 
+		HttpSession session1 = request.getSession();
+	%>
+	
+	
 	<body background="Pictures/g3.jpg">
+	
+	<% 
+		List<Gym> gym = new ArrayList<>();
+		gym = (List<Gym>)request.getAttribute("gym");
+ 		if(gym == null)
+ 		{
+ 			response.sendRedirect("home");
+ 		}
+	%>
+	
 		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #22313F">
 			<a class="navbar-brand" href="#">SVGYM</a>    
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,7 +90,7 @@
   			<div class="row mt-5 mb-5">
   			
   				<% 
-  				for(int i = 0; i < 50; i++)
+  				for(Gym g : gym)
   				{
   				%>
 	   				<div class="col-sm-4">
@@ -81,9 +99,8 @@
 			  				<div class="card">
 			  					<img src="Pictures/gym3.jpg" class="card-img-top" alt="...">
 			  					<div class="card-body">
-			  							GYM NAME<br>
-			  							ADDRESS<br>
-			  							MOBILE NO<br>
+			  							<%=g.getName()%><br>
+			  							<%=g.getAddress()%><br>
 			  							
 			  							<br>
 			  							<a href="editgym" class="badge badge-primary">Edit</a>
@@ -114,4 +131,5 @@
 	   </div>
 		
 	</body>
+	
 </html> 

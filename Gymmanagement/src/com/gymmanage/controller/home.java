@@ -2,6 +2,8 @@ package com.gymmanage.controller;
 
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -12,6 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import com.gymmanage.dao.homedao;
+import com.gymmanage.model.Gym;
 import com.gymmanage.model.Login;
 
 /**
@@ -52,12 +55,23 @@ public class home extends HttpServlet {
             HttpSession session1 = request.getSession();
     		Login login = (Login) session1.getAttribute("user");
     		
+    		String id = login.getLoginid();
+    		String role = login.getRole();
+    		
+    		List<Gym> gym = new ArrayList<>();
+    		
     		if(login.getRole().equals("owner"))
     		{
-    			
+    			gym = homeDao.Getgymowner(id,role);
+    			request.setAttribute("gym",gym);
+    		}
+    		else
+    		{
+    			gym = homeDao.Getgymuser();
+    			request.setAttribute("gym",gym);
     		}
              
-            RequestDispatcher dispatcher = request.getRequestDispatcher();
+            RequestDispatcher dispatcher = request.getRequestDispatcher("home.jsp");
             dispatcher.forward(request, response);
              
         } catch (SQLException | ClassNotFoundException ex) {
